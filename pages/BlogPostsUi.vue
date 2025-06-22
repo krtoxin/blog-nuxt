@@ -36,7 +36,7 @@
           >
             <template #title-data="{ row }">
                <a
-                  :href="`/admin/blog/posts/${row.id}/edit`"
+                  :href="`blog/posts/${row.id}`"
                   class="text-[#d4af37] hover:text-[#ff0000] font-medium transition-colors duration-200 break-words"
                 >
                   {{ row.title }}
